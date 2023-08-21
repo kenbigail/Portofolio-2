@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Space Grotesk';
+    background: #333544;
+}
+
+.container {
+    width: 100vw;
+    background: #333544;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 100px;
+    letter-spacing: 0;
+    display: flex;
+    text-align: center;
+    transition: letter-spacing 0.3s ease, color 0.3s ease;
+}
+
+.h1:hover {
+    color: white;
+    letter-spacing: 10px;
+}
+
+.klik {
+    background-color: #F6C26A;
+    color: #242532;
+    padding: 15px 50px;
+    margin-bottom: 10px;
+    border: #F6C26A 1px solid;
+    border-radius: 30px;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.klik:hover {
+    background:none;
+    color: white;
+    border: #F6C26A 1px solid;
+}
+
+.klik_div {
+    background: #333544;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 3.5%;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+img:hover {
+    opacity: 0.6;
+}
