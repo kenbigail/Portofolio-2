@@ -104,7 +104,6 @@ li a:hover {
     width: 50%;
     height: 705px;
     padding: 100px 100px;
-    background: #333544;
     margin-left: 5%;
 }
 
@@ -205,7 +204,6 @@ li a:hover {
     height: 504px;
     padding: 140px 100px;
     margin-left: 50px;
-    background: #242532;
 }
 
 .title-about {
@@ -237,7 +235,6 @@ li a:hover {
     margin-left: 110px;
     display: flex;
     flex-direction: column;
-    background: #242532;
 }
 
 .motivation-about {
@@ -350,7 +347,6 @@ li a:hover {
     height: 1681px;
     padding: 140px 100px;
     margin-left: 50px;
-    background: #323444;
 }
 
 .title-experience {
@@ -384,7 +380,6 @@ li a:hover {
     height: 100%;
     padding: 140px 100px;
     margin-left: 50px;
-    background: #323444;
 }
 
 .img-right2 {
@@ -408,7 +403,6 @@ li a:hover {
     height: 786px;
     padding: 140px 100px;
     margin-left: 50px;
-    background: #242532;
 }
 
 .collab-socials {
@@ -512,7 +506,6 @@ li a:hover {
     height: 786px;
     padding: 200px 100px;
     margin-left: 50px;
-    background: #242532;
     justify-content: center;
     align-items: center;
     text-align: center;

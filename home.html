@@ -31,11 +31,11 @@
 
 <body>
     <!-- todo navbar -->
-    <div class="navbar" >
-        <div class="navbar-logo">
+    <div class="navbar" data-aos="fade-up">
+        <div class="navbar-logo" data-aos="fade-down-right">
             <img src="Assets-Portfolio/Ken's Logo.png" alt="Ken's logo" height="70%">
         </div>
-        <div class="navbar-item">
+        <div class="navbar-item" data-aos="fade-down-left">
             <div class="list-item">
                 <ul>
                     <li><a href="#about">About Ken</a></li>
@@ -50,7 +50,7 @@
 
     <!-- todo hero -->
     <div class="hero">
-        <div class="area-name">
+        <div class="area-name" data-aos="zoom-in-right">
             <div class="name">
                 <p>Keenan <br>Abigail.</p>
             </div>
@@ -65,7 +65,7 @@
             </div>
             <div class="image"></div>
         </div>
-        <div class="area-introduction">
+        <div class="area-introduction" data-aos="zoom-in-left">
             <div class="introduction">
                 <p> - introduction </p> <br>
 
@@ -87,7 +87,7 @@
 
     <!-- todo about -->
     <div class="about">
-        <div class="ken-about">
+        <div class="ken-about" data-aos="fade-down-right">
             <div class="title-about">
                 <p>- About</p>
             </div>
@@ -101,19 +101,19 @@
             </div>
         </div>
         <div class="motiv-about">
-            <div class="motivation-about">
+            <div class="motivation-about" data-aos="fade-down-left">
                 <p>Don’t Stay in your Comfort Zone, Start While you can.</p>
             </div>
-            <div class="motivation-desc">
+            <div class="motivation-desc" data-aos="fade-down-left">
                 <p>Keenan Abigail started his Career as a 14 year older, his actual Motivation was to start a Cafe like
                     Jimmy Butler, i guess it doesn’t end as he wanted.</p>
             </div>
             <div class="count">
-                <div class="text-experience">
+                <div class="text-experience" data-aos="flip-down" data-aos-duration="1500">
                     <h1>4</h1>
                     <p>Years of <br>Experience</p>
                 </div>
-                <div class="text-project">
+                <div class="text-project" data-aos="flip-down" data-aos-duration="1500">
                     <h1>67</h1>
                     <p>Finished <br>Projects</p>
                 </div>
@@ -125,17 +125,17 @@
 
     <!-- todo skill -->
     <div class="skill">
-        <div class="card">
+        <div class="card" data-aos="zoom-in-up">
             <h3>Software Engineering</h3>
             <br>
             <p>8 Projects.</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in-up">
             <h3>UI/UX <br> Design</h3>
             <br>
             <p>34 Projects.</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in-up">
             <h3>Public <br> Speaking</h3>
             <br>
             <p>10 Performances, 3 Teach (Overseas).</p>
@@ -146,26 +146,26 @@
     <!-- todo experience -->
     <div class="experience">
         <div class="left-side">
-            <div class="title-experience">
+            <div class="title-experience" data-aos="fade-right">
                 <p>- Experience</p>
             </div>
-            <div class="txt-exp">
+            <div class="txt-exp" data-aos="fade-right">
                 <p>Selected Creative Work,
                     Ken’s Experience, Still Counting.</p>
             </div>
-            <div class="desc-experience">
+            <div class="desc-experience" data-aos="fade-right">
                 <p>These are the Selected Creative work that Keenan Abigail is proud of, and the Adventure hasn’t ended
                     yet.</p>
             </div>
-            <div class="img-left">
+            <div class="img-left" data-aos="flip-down">
                 <img src="Assets-Portfolio/talk-to-me-port.png" alt="Talk to Me" style="width: 90%; ">
             </div>
         </div>
         <div class="right-side">
-            <div class="img-right1">
+            <div class="img-right1" data-aos="flip-down">
                 <img src="Assets-Portfolio/tomodoro-port.png" alt="Tomodoro" style="width: 90%;">
             </div>
-            <div class="img-right2">
+            <div class="img-right2" data-aos="flip-down">
                 <img src="Assets-Portfolio/taqwapro-port.png" alt="TaqwaPro" style="width: 90%;">
             </div>
         </div>
@@ -174,7 +174,7 @@
 
     <!-- todo footer -->
     <div class="footer">
-        <div class="socials">
+        <div class="socials" data-aos="zoom-out-up">
             <div class="collab-socials">
                 <p>Want a Collab? <br>
                     Need my Services and Assistance? <br>
@@ -194,7 +194,7 @@
                 <a href="#" class="btn-ig">@kabigails_</a>
             </div>
         </div>
-        <div class="footer-thank">
+        <div class="footer-thank" data-aos="zoom-out-up">
             <div class="img-footer">
                 <img src="Assets-Portfolio/Ken's Logo.png" alt="Logo" style="width: 30%;">
             </div>
@@ -205,6 +205,13 @@
         </div>
     </div>
     <!-- todo footer -->
+
+    <!-- AOS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
