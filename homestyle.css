@@ -523,6 +523,15 @@ li a:hover {
 /* footer end */
 
 /* mobile start */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    .navbar-logo {
+        display: none;
+    }
+
+    .desc-intro {
+        display: none;
+        padding: 1px 1px;
+    }
+}
 
 /* mobile end */
