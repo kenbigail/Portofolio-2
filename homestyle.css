@@ -371,28 +371,6 @@ li a:hover {
     padding-right: 60px;
 }
 
-.title-about {
-    margin-top: -25px;
-    font-weight: lighter;
-    font-size: 26px;
-    color: #A6A8B1;
-}
-
-.text-legacy {
-    margin-top: 15px;
-    font-weight: 400;
-    font-size: 32px;
-    color: white;
-}
-
-.desc-about {
-    font-weight: 400;
-    font-size: 24px;
-    color: #CDCDCD;
-    margin-top: 15px;
-    padding-right: 60px;
-}
-
 .img-left {
     margin-top: 219px;
 }
@@ -417,6 +395,7 @@ li a:hover {
     background: #242532;
     display: flex;
     justify-content: space-around;
+    overflow-y: hidden;
 }
 
 .socials {
@@ -424,7 +403,7 @@ li a:hover {
     height: 786px;
     padding: 140px 100px;
     margin-left: 50px;
-    background: #323444;
+    background: #242532;
 }
 
 .collab-socials {
@@ -440,6 +419,106 @@ li a:hover {
     color: #CDCDCD;
     margin-top: 15px;
     padding-right: 60px;
+}
+
+.email {
+    margin-top: 100px;
+}
+
+.btn-email {
+    
+    background-color: #F6C26A;
+    color: #242532;
+    border: #F6C26A 3px solid;
+    padding: 10px 50px;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.email :hover {
+    background-color: #333544;
+    color: #F6C26A;
+    border: #F6C26A 3px solid;
+}
+
+.phone {
+    margin-top: 40px;
+}
+
+.btn-phone {
+    
+    background-color: #F6C26A;
+    color: #242532;
+    border: #F6C26A 3px solid;
+    padding: 10px 100px;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.phone :hover {
+    background-color: #333544;
+    color: #F6C26A;
+    border: #F6C26A 3px solid;
+}
+
+.instagram {
+    margin-top: 40px;
+}
+
+.btn-ig {
+    
+    background-color: #F6C26A;
+    color: #242532;
+    border: #F6C26A 3px solid;
+    padding: 10px 130px;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.instagram :hover {
+    background-color: #333544;
+    color: #F6C26A;
+    border: #F6C26A 3px solid;
+}
+
+.footer-thank {
+    width: 50%;
+    height: 786px;
+    padding: 200px 100px;
+    margin-left: 50px;
+    background: #242532;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.text-footer {
+    margin-top: 59px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffff;
 }
 
 
