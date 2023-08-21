@@ -5,6 +5,10 @@
     font-family: "Space Grotesk";
 }
 
+body {
+    background: #242532;
+}
+
 /* navbar start */
 .navbar {
     width: 100vw;
@@ -386,6 +390,7 @@ li a:hover {
 .img-right2 {
     margin-top: 177px;
 }
+
 /* experience end */
 
 /* footer start */
@@ -426,7 +431,7 @@ li a:hover {
 }
 
 .btn-email {
-    
+
     background-color: #F6C26A;
     color: #242532;
     border: #F6C26A 3px solid;
@@ -453,7 +458,7 @@ li a:hover {
 }
 
 .btn-phone {
-    
+
     background-color: #F6C26A;
     color: #242532;
     border: #F6C26A 3px solid;
@@ -480,7 +485,7 @@ li a:hover {
 }
 
 .btn-ig {
-    
+
     background-color: #F6C26A;
     color: #242532;
     border: #F6C26A 3px solid;
@@ -523,3 +528,8 @@ li a:hover {
 
 
 /* footer end */
+
+/* mobile start */
+@media screen and (max-width:768px) {}
+
+/* mobile end */
